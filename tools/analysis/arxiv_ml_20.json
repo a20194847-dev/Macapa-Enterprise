@@ -1,0 +1,288 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2602.06965v1",
+    "title": "MedMO: Grounding and Understanding Multimodal Large Language Model for Medical Images",
+    "summary": "Multimodal large language models (MLLMs) have rapidly advanced, yet their adoption in medicine remains limited by gaps in domain coverage, modality alignment, and grounded reasoning. In this work, we introduce MedMO, a medical foundation model built upon a generalized MLLM architecture and trained exclusively on large-scale, domain-specific data. MedMO follows a multi-stage training recipe: (i) cross-modal pretraining to align heterogeneous visual encoders with a medical language backbone; (ii) instruction tuning on multi-task supervision that spans captioning, VQA, report generation, retrieval, and grounded disease localization with bounding boxes; and (iii) reinforcement learning with verifiable rewards that combine factuality checks with a box-level GIoU reward to strengthen spatial grounding and step-by-step reasoning in complex clinical scenarios. MedMO consistently outperforms strong open-source medical MLLMs across multiple modalities and tasks. On VQA benchmarks, MedMO achieves an average accuracy improvement of +13.7% over the baseline and performs within 1.9% of the SOTA Fleming-VL. For text-based QA, it attains +6.9% over the baseline and +14.5% over Fleming-VL. In medical report generation, MedMO delivers significant gains in both semantic and clinical accuracy. Moreover, it exhibits strong grounding capability, achieving an IoU improvement of +40.4 over the baseline and +37.0% over Fleming-VL, underscoring its robust spatial reasoning and localization performance. Evaluations across radiology, ophthalmology, and pathology-microscopy confirm MedMO's broad cross-modality generalization. We release two versions of MedMO: 4B and 8B. Project is available at https://genmilab.github.io/MedMO-Page",
+    "authors": [
+      "Ankan Deria",
+      "Komal Kumar",
+      "Adinath Madhavrao Dukre",
+      "Eran Segal",
+      "Salman Khan",
+      "Imran Razzak"
+    ],
+    "published": "2026-02-06 18:59:59+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06964v1",
+    "title": "Learning a Generative Meta-Model of LLM Activations",
+    "summary": "Existing approaches for analyzing neural network activations, such as PCA and sparse autoencoders, rely on strong structural assumptions. Generative models offer an alternative: they can uncover structure without such assumptions and act as priors that improve intervention fidelity. We explore this direction by training diffusion models on one billion residual stream activations, creating \"meta-models\" that learn the distribution of a network's internal states. We find that diffusion loss decreases smoothly with compute and reliably predicts downstream utility. In particular, applying the meta-model's learned prior to steering interventions improves fluency, with larger gains as loss decreases. Moreover, the meta-model's neurons increasingly isolate concepts into individual units, with sparse probing scores that scale as loss decreases. These results suggest generative meta-models offer a scalable path toward interpretability without restrictive structural assumptions. Project page: https://generative-latent-prior.github.io.",
+    "authors": [
+      "Grace Luo",
+      "Jiahai Feng",
+      "Trevor Darrell",
+      "Alec Radford",
+      "Jacob Steinhardt"
+    ],
+    "published": "2026-02-06 18:59:56+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06961v1",
+    "title": "The N-Body 2PN Hamiltonian and Numerical Integration of the Equations of Motion",
+    "summary": "To date, the second-order post-Newtonian (2PN) Hamiltonian has been known in closed analytic form only for systems of up to three point masses. In this paper, we present an analytic expression for the general $N$-body 2PN Hamiltonian in the ADM gauge up to a single integral term that, to our knowledge, has no known closed-form analytic solution. We show that the integrals appearing in the 2PN Hamiltonian can be evaluated numerically to machine precision, allowing for cross-validation against analytical results and enabling the full numerical computation of the $N$-body 2PN Hamiltonian. Furthermore, we demonstrate the practical feasibility of the numerical integration of the equations of motion for $N$ bodies at 2PN order using different methods and discuss several strategies for improving computational efficiency.",
+    "authors": [
+      "Felix M. Heinze",
+      "Gerhard Schäfer",
+      "Bernd Brügmann"
+    ],
+    "published": "2026-02-06 18:59:31+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06960v1",
+    "title": "InftyThink+: Effective and Efficient Infinite-Horizon Reasoning via Reinforcement Learning",
+    "summary": "Large reasoning models achieve strong performance by scaling inference-time chain-of-thought, but this paradigm suffers from quadratic cost, context length limits, and degraded reasoning due to lost-in-the-middle effects. Iterative reasoning mitigates these issues by periodically summarizing intermediate thoughts, yet existing methods rely on supervised learning or fixed heuristics and fail to optimize when to summarize, what to preserve, and how to resume reasoning. We propose InftyThink+, an end-to-end reinforcement learning framework that optimizes the entire iterative reasoning trajectory, building on model-controlled iteration boundaries and explicit summarization. InftyThink+ adopts a two-stage training scheme with supervised cold-start followed by trajectory-level reinforcement learning, enabling the model to learn strategic summarization and continuation decisions. Experiments on DeepSeek-R1-Distill-Qwen-1.5B show that InftyThink+ improves accuracy by 21% on AIME24 and outperforms conventional long chain-of-thought reinforcement learning by a clear margin, while also generalizing better to out-of-distribution benchmarks. Moreover, InftyThink+ significantly reduces inference latency and accelerates reinforcement learning training, demonstrating improved reasoning efficiency alongside stronger performance.",
+    "authors": [
+      "Yuchen Yan",
+      "Liang Jiang",
+      "Jin Jiang",
+      "Shuaicheng Li",
+      "Zujie Wen",
+      "Zhiqiang Zhang",
+      "Jun Zhou",
+      "Jian Shao",
+      "Yueting Zhuang",
+      "Yongliang Shen"
+    ],
+    "published": "2026-02-06 18:59:27+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06957v1",
+    "title": "Revisiting the Electroweakino Sector of the Baryon Number Violating MSSM at the HL-LHC with Deep Neural Networks",
+    "summary": "We study the projected sensitivity of direct electroweakino production $pp \\to \\tildeχ_1^{\\pm} \\tildeχ_2^0$ at the HL-LHC in a simplified framework with wino-like, mass degenerate $\\tildeχ_1^{\\pm}$ and $\\tildeχ_2^0$, and a bino-like lightest neutralino $\\tildeχ_1^0$, assuming R-parity violating~(RPV) through the baryon number violating $λ^{\\prime \\prime}_{112}u^c d^c d^c$ and $λ^{\\prime \\prime}_{113}u^c d^c b^c$ operators. We consider three channels with the $λ^{\\prime \\prime}_{112}u^c d^c d^c$ RPV operator: $Wh$ mediated $1\\,\\ell + 2\\,b + \\rm E{\\!\\!\\!/}_T$, $Wh$ mediated $1\\,\\ell + (\\geq 2\\,j) + 2\\, γ+ \\rm E{\\!\\!\\!/}_T$, and $WZ$ mediated $3\\ell + (\\geq 2 j) + \\rm E{\\!\\!\\!/}_T$. In each channel, we train benchmark-specific multi-layer perceptrons (MLPs), analogous to signal-region classifiers, on the four-momenta of the final state particles along with a small set of higher-level observables to distinguish the signal from the dominant SM backgrounds. We find that the HL-LHC will be able to probe winos up to $\\sim 900~$GeV, $\\sim 780~$GeV, and $\\sim 880~$GeV in the $Wh$ mediated $1\\,\\ell + 2\\,b + \\rm E{\\!\\!\\!/}_T$, $Wh$ mediated $1\\,\\ell + (\\geq 2\\,j) + 2\\, γ+ \\rm E{\\!\\!\\!/}_T$, and $WZ$ mediated $3\\ell + (\\geq 2 j) + \\rm E{\\!\\!\\!/}_T$ channels, respectively, for $m_{\\tildeχ_1^0} \\sim 50~$GeV, in the presence of $λ^{\\prime \\prime}_{112}u^c d^c d^c$ couplings, at $2σ$ sensitivity. In case the $λ^{\\prime \\prime}_{113}u^c d^c b^c$ operator is solely switched on, the projected sensitivity for winos reach up to $\\sim 700~$GeV for $Wh$ mediated $1\\,\\ell + (\\geq 1\\,b)\\, + (\\geq 1j)\\, + 2\\, γ+ \\rm E{\\!\\!\\!/}_T$ and $\\sim 850~$GeV for the $WZ$ mediated $3\\ell + (\\geq 1 b) + \\rm E{\\!\\!\\!/}_T$ channel.",
+    "authors": [
+      "Rahool Kumar Barman",
+      "Arghya Choudhury",
+      "Subhadeep Sarkar"
+    ],
+    "published": "2026-02-06 18:58:18+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06955v1",
+    "title": "Improving Credit Card Fraud Detection with an Optimized Explainable Boosting Machine",
+    "summary": "Addressing class imbalance is a central challenge in credit card fraud detection, as it directly impacts predictive reliability in real-world financial systems. To overcome this, the study proposes an enhanced workflow based on the Explainable Boosting Machine (EBM)-a transparent, state-of-the-art implementation of the GA2M algorithm-optimized through systematic hyperparameter tuning, feature selection, and preprocessing refinement. Rather than relying on conventional sampling techniques that may introduce bias or cause information loss, the optimized EBM achieves an effective balance between accuracy and interpretability, enabling precise detection of fraudulent transactions while providing actionable insights into feature importance and interaction effects. Furthermore, the Taguchi method is employed to optimize both the sequence of data scalers and model hyperparameters, ensuring robust, reproducible, and systematically validated performance improvements. Experimental evaluation on benchmark credit card data yields an ROC-AUC of 0.983, surpassing prior EBM baselines (0.975) and outperforming Logistic Regression, Random Forest, XGBoost, and Decision Tree models. These results highlight the potential of interpretable machine learning and data-driven optimization for advancing trustworthy fraud analytics in financial systems.",
+    "authors": [
+      "Reza E. Fazel",
+      "Arash Bakhtiary",
+      "Siavash A. Bigdeli"
+    ],
+    "published": "2026-02-06 18:56:17+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06949v1",
+    "title": "DreamDojo: A Generalist Robot World Model from Large-Scale Human Videos",
+    "summary": "Being able to simulate the outcomes of actions in varied environments will revolutionize the development of generalist agents at scale. However, modeling these world dynamics, especially for dexterous robotics tasks, poses significant challenges due to limited data coverage and scarce action labels. As an endeavor towards this end, we introduce DreamDojo, a foundation world model that learns diverse interactions and dexterous controls from 44k hours of egocentric human videos. Our data mixture represents the largest video dataset to date for world model pretraining, spanning a wide range of daily scenarios with diverse objects and skills. To address the scarcity of action labels, we introduce continuous latent actions as unified proxy actions, enhancing interaction knowledge transfer from unlabeled videos. After post-training on small-scale target robot data, DreamDojo demonstrates a strong understanding of physics and precise action controllability. We also devise a distillation pipeline that accelerates DreamDojo to a real-time speed of 10.81 FPS and further improves context consistency. Our work enables several important applications based on generative world models, including live teleoperation, policy evaluation, and model-based planning. Systematic evaluation on multiple challenging out-of-distribution (OOD) benchmarks verifies the significance of our method for simulating open-world, contact-rich tasks, paving the way for general-purpose robot world models.",
+    "authors": [
+      "Shenyuan Gao",
+      "William Liang",
+      "Kaiyuan Zheng",
+      "Ayaan Malik",
+      "Seonghyeon Ye",
+      "Sihyun Yu",
+      "Wei-Cheng Tseng",
+      "Yuzhu Dong",
+      "Kaichun Mo",
+      "Chen-Hsuan Lin",
+      "Qianli Ma",
+      "Seungjun Nah",
+      "Loic Magne",
+      "Jiannan Xiang",
+      "Yuqi Xie",
+      "Ruijie Zheng",
+      "Dantong Niu",
+      "You Liang Tan",
+      "K. R. Zentner",
+      "George Kurian",
+      "Suneel Indupuru",
+      "Pooya Jannaty",
+      "Jinwei Gu",
+      "Jun Zhang",
+      "Jitendra Malik",
+      "Pieter Abbeel",
+      "Ming-Yu Liu",
+      "Yuke Zhu",
+      "Joel Jang",
+      "Linxi \"Jim\" Fan"
+    ],
+    "published": "2026-02-06 18:49:43+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06948v1",
+    "title": "Agentic Uncertainty Reveals Agentic Overconfidence",
+    "summary": "Can AI agents predict whether they will succeed at a task? We study agentic uncertainty by eliciting success probability estimates before, during, and after task execution. All results exhibit agentic overconfidence: some agents that succeed only 22% of the time predict 77% success. Counterintuitively, pre-execution assessment with strictly less information tends to yield better discrimination than standard post-execution review, though differences are not always significant. Adversarial prompting reframing assessment as bug-finding achieves the best calibration.",
+    "authors": [
+      "Jean Kaddour",
+      "Srijan Patel",
+      "Gbètondji Dovonon",
+      "Leo Richter",
+      "Pasquale Minervini",
+      "Matt J. Kusner"
+    ],
+    "published": "2026-02-06 18:49:35+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06944v1",
+    "title": "Optimal Derivative Feedback Control for an Active Magnetic Levitation System: An Experimental Study on Data-Driven Approaches",
+    "summary": "This paper presents the design and implementation of data-driven optimal derivative feedback controllers for an active magnetic levitation system. A direct, model-free control design method based on the reinforcement learning framework is compared with an indirect optimal control design derived from a numerically identified mathematical model of the system. For the direct model-free approach, a policy iteration procedure is proposed, which adds an iteration layer called the epoch loop to gather multiple sets of process data, providing a more diverse dataset and helping reduce learning biases. This direct control design method is evaluated against a comparable optimal control solution designed from a plant model obtained through the combined Dynamic Mode Decomposition with Control (DMDc) and Prediction Error Minimization (PEM) system identification. Results show that while both controllers can stabilize and improve the performance of the magnetic levitation system when compared to controllers designed from a nominal model, the direct model-free approach consistently outperforms the indirect solution when multiple epochs are allowed. The iterative refinement of the optimal control law over the epoch loop provides the direct approach a clear advantage over the indirect method, which relies on a single set of system data to determine the identified model and control.",
+    "authors": [
+      "Saber Omidi",
+      "Rene Akupan Ebunle",
+      "Se Young Yoon"
+    ],
+    "published": "2026-02-06 18:42:01+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06942v1",
+    "title": "Optimal Turkish Subword Strategies at Scale: Systematic Evaluation of Data, Vocabulary, Morphology Interplay",
+    "summary": "Tokenization is a pivotal design choice for neural language modeling in morphologically rich languages (MRLs) such as Turkish, where productive agglutination challenges both vocabulary efficiency and morphological fidelity. Prior studies have explored tokenizer families and vocabulary sizes but typically (i) vary vocabulary without systematically controlling the tokenizer's training corpus, (ii) provide limited intrinsic diagnostics, and (iii) evaluate a narrow slice of downstream tasks. We present the first comprehensive, principled study of Turkish subword tokenization; a \"subwords manifest\", that jointly varies vocabulary size and tokenizer training corpus size (data and vocabulary coupling), compares multiple tokenizer families under matched parameter budgets (WordPiece, morphology level, and character baselines), and evaluates across semantic (NLI, STS, sentiment analysis, NER), syntactic (POS, dependency parsing), and morphology-sensitive probes. To explain why tokenizers succeed or fail, we introduce a morphology-aware diagnostic toolkit that goes beyond coarse aggregates to boundary-level micro/macro F1, decoupled lemma atomicity vs. surface boundary hits, over/under-segmentation indices, character/word edit distances (CER/WER), continuation rates, and affix-type coverage and token-level atomicity. Our contributions are fourfold: (i) a systematic investigation of the vocabulary-corpus-success triad; (ii) a unified, morphology-aware evaluation framework linking intrinsic diagnostics to extrinsic outcomes; (iii) controlled comparisons identifying when character-level and morphology-level tokenization pay off; and (iv) an open-source release of evaluation code, tokenizer pipelines, and models. As the first work of its kind, this \"subwords manifest\" delivers actionable guidance for building effective tokenizers in MRLs and establishes a reproducible foundation for future research.",
+    "authors": [
+      "Duygu Altinok"
+    ],
+    "published": "2026-02-06 18:41:14+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06941v1",
+    "title": "Endogenous Resistance to Activation Steering in Language Models",
+    "summary": "Large language models can resist task-misaligned activation steering during inference, sometimes recovering mid-generation to produce improved responses even when steering remains active. We term this Endogenous Steering Resistance (ESR). Using sparse autoencoder (SAE) latents to steer model activations, we find that Llama-3.3-70B shows substantial ESR, while smaller models from the Llama-3 and Gemma-2 families exhibit the phenomenon less frequently. We identify 26 SAE latents that activate differentially during off-topic content and are causally linked to ESR in Llama-3.3-70B. Zero-ablating these latents reduces the multi-attempt rate by 25%, providing causal evidence for dedicated internal consistency-checking circuits. We demonstrate that ESR can be deliberately enhanced through both prompting and training: meta-prompts instructing the model to self-monitor increase the multi-attempt rate by 4x for Llama-3.3-70B, and fine-tuning on self-correction examples successfully induces ESR-like behavior in smaller models. These findings have dual implications: ESR could protect against adversarial manipulation but might also interfere with beneficial safety interventions that rely on activation steering. Understanding and controlling these resistance mechanisms is important for developing transparent and controllable AI systems. Code is available at github.com/agencyenterprise/endogenous-steering-resistance.",
+    "authors": [
+      "Alex McKenzie",
+      "Keenan Pepper",
+      "Stijn Servaes",
+      "Martin Leitgab",
+      "Murat Cubuktepe",
+      "Mike Vaiana",
+      "Diogo de Lucena",
+      "Judd Rosenblatt",
+      "Michael S. A. Graziano"
+    ],
+    "published": "2026-02-06 18:41:12+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06940v1",
+    "title": "From Core to Detail: Unsupervised Disentanglement with Entropy-Ordered Flows",
+    "summary": "Learning unsupervised representations that are both semantically meaningful and stable across runs remains a central challenge in modern representation learning. We introduce entropy-ordered flows (EOFlows), a normalizing-flow framework that orders latent dimensions by their explained entropy, analogously to PCA's explained variance. This ordering enables adaptive injective flows: after training, one may retain only the top C latent variables to form a compact core representation while the remaining variables capture fine-grained detail and noise, with C chosen flexibly at inference time rather than fixed during training. EOFlows build on insights from Independent Mechanism Analysis, Principal Component Flows and Manifold Entropic Metrics. We combine likelihood-based training with local Jacobian regularization and noise augmentation into a method that scales well to high-dimensional data such as images. Experiments on the CelebA dataset show that our method uncovers a rich set of semantically interpretable features, allowing for high compression and strong denoising.",
+    "authors": [
+      "Daniel Galperin",
+      "Ullrich Köthe"
+    ],
+    "published": "2026-02-06 18:41:03+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06939v1",
+    "title": "Cochain Perspectives on Temporal-Difference Signals for Learning Beyond Markov Dynamics",
+    "summary": "Non-Markovian dynamics are commonly found in real-world environments due to long-range dependencies, partial observability, and memory effects. The Bellman equation that is the central pillar of Reinforcement learning (RL) becomes only approximately valid under Non-Markovian. Existing work often focus on practical algorithm designs and offer limited theoretical treatment to address key questions, such as what dynamics are indeed capturable by the Bellman framework and how to inspire new algorithm classes with optimal approximations. In this paper, we present a novel topological viewpoint on temporal-difference (TD) based RL. We show that TD errors can be viewed as 1-cochain in the topological space of state transitions, while Markov dynamics are then interpreted as topological integrability. This novel view enables us to obtain a Hodge-type decomposition of TD errors into an integrable component and a topological residual, through a Bellman-de Rham projection. We further propose HodgeFlow Policy Search (HFPS) by fitting a potential network to minimize the non-integrable projection residual in RL, achieving stability/sensitivity guarantees. In numerical evaluations, HFPS is shown to significantly improve RL performance under non-Markovian.",
+    "authors": [
+      "Zuyuan Zhang",
+      "Sizhe Tang",
+      "Tian Lan"
+    ],
+    "published": "2026-02-06 18:35:41+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06938v1",
+    "title": "Reliable Mislabel Detection for Video Capsule Endoscopy Data",
+    "summary": "The classification performance of deep neural networks relies strongly on access to large, accurately annotated datasets. In medical imaging, however, obtaining such datasets is particularly challenging since annotations must be provided by specialized physicians, which severely limits the pool of annotators. Furthermore, class boundaries can often be ambiguous or difficult to define which further complicates machine learning-based classification. In this paper, we want to address this problem and introduce a framework for mislabel detection in medical datasets. This is validated on the two largest, publicly available datasets for Video Capsule Endoscopy, an important imaging procedure for examining the gastrointestinal tract based on a video stream of lowresolution images. In addition, potentially mislabeled samples identified by our pipeline were reviewed and re-annotated by three experienced gastroenterologists. Our results show that the proposed framework successfully detects incorrectly labeled data and results in an improved anomaly detection performance after cleaning the datasets compared to current baselines.",
+    "authors": [
+      "Julia Werner",
+      "Julius Oexle",
+      "Oliver Bause",
+      "Maxime Le Floch",
+      "Franz Brinkmann",
+      "Hannah Tolle",
+      "Jochen Hampe",
+      "Oliver Bringmann"
+    ],
+    "published": "2026-02-06 18:33:12+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06937v1",
+    "title": "Reciprocal Latent Fields for Precomputed Sound Propagation",
+    "summary": "Realistic sound propagation is essential for immersion in a virtual scene, yet physically accurate wave-based simulations remain computationally prohibitive for real-time applications. Wave coding methods address this limitation by precomputing and compressing impulse responses of a given scene into a set of scalar acoustic parameters, which can reach unmanageable sizes in large environments with many source-receiver pairs. We introduce Reciprocal Latent Fields (RLF), a memory-efficient framework for encoding and predicting these acoustic parameters. The RLF framework employs a volumetric grid of trainable latent embeddings decoded with a symmetric function, ensuring acoustic reciprocity. We study a variety of decoders and show that leveraging Riemannian metric learning leads to a better reproduction of acoustic phenomena in complex scenes. Experimental validation demonstrates that RLF maintains replication quality while reducing the memory footprint by several orders of magnitude. Furthermore, a MUSHRA-like subjective listening test indicates that sound rendered via RLF is perceptually indistinguishable from ground-truth simulations.",
+    "authors": [
+      "Hugo Seuté",
+      "Pranai Vasudev",
+      "Etienne Richan",
+      "Louis-Xavier Buffoni"
+    ],
+    "published": "2026-02-06 18:31:11+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06934v1",
+    "title": "Implementing Grassroots Logic Programs with Multiagent Transition Systems and AI",
+    "summary": "Grassroots Logic Programs (GLP) is a concurrent logic programming language with variables partitioned into paired \\emph{readers} and \\emph{writers}, conjuring both linear logic and futures/promises: an assignment is produced at most once via the sole occurrence of a writer (promise) and consumed at most once via the sole occurrence of its paired reader (future), and may contain additional readers and/or writers, enabling the concise expression of rich multidirectional communication modalities.\n  GLP was designed as a language for grassroots platforms -- distributed systems with multiple instances that can operate independently of each other and of any global resource, and can coalesce into ever larger instances -- with its target architecture being smartphones communicating peer-to-peer. The operational semantics of Concurrent (single-agent) GLP and of multiagent GLP (maGLP) were defined via transition systems/multiagent transition systems, respectively.\n  Here, we describe the mathematics developed to facilitate the workstation- and smartphone-based implementations of GLP by AI in Dart. We developed dGLP -- implementation-ready deterministic operational semantics for single-agent GLP -- and proved it correct with respect to the Concurrent GLP operational semantics; dGLP was used by AI as a formal spec, from which it developed a workstation-based implementation of GLP. We developed madGLP -- an implementation-ready multiagent operational semantics for maGLP -- and proved it correct with respect to the maGLP operational semantics; madGLP is deterministic at the agent level (not at the system level due to communication asynchrony), and is being used by AI as a formal spec from which it develops a smartphone-based implementation of maGLP.",
+    "authors": [
+      "Ehud Shapiro"
+    ],
+    "published": "2026-02-06 18:30:11+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06932v1",
+    "title": "When RL Meets Adaptive Speculative Training: A Unified Training-Serving System",
+    "summary": "Speculative decoding can significantly accelerate LLM serving, yet most deployments today disentangle speculator training from serving, treating speculator training as a standalone offline modeling problem. We show that this decoupled formulation introduces substantial deployment and adaptation lag: (1) high time-to-serve, since a speculator must be trained offline for a considerable period before deployment; (2) delayed utility feedback, since the true end-to-end decoding speedup is only known after training and cannot be inferred reliably from acceptance rate alone due to model-architecture and system-level overheads; and (3) domain-drift degradation, as the target model is repurposed to new domains and the speculator becomes stale and less effective.\n  To address these issues, we present Aurora, a unified training-serving system that closes the loop by continuously learning a speculator directly from live inference traces. Aurora reframes online speculator learning as an asynchronous reinforcement-learning problem: accepted tokens provide positive feedback, while rejected speculator proposals provide implicit negative feedback that we exploit to improve sample efficiency. Our design integrates an SGLang-based inference server with an asynchronous training server, enabling hot-swapped speculator updates without service interruption. Crucially, Aurora supports day-0 deployment: a speculator can be served immediately and rapidly adapted to live traffic, improving system performance while providing immediate utility feedback. Across experiments, Aurora achieves a 1.5x day-0 speedup on recently released frontier models (e.g., MiniMax M2.1 229B and Qwen3-Coder-Next 80B). Aurora also adapts effectively to distribution shifts in user traffic, delivering an additional 1.25x speedup over a well-trained but static speculator on widely used models (e.g., Qwen3 and Llama3).",
+    "authors": [
+      "Junxiong Wang",
+      "Fengxiang Bie",
+      "Jisen Li",
+      "Zhongzhu Zhou",
+      "Zelei Shao",
+      "Yubo Wang",
+      "Yinghui Liu",
+      "Qingyang Wu",
+      "Avner May",
+      "Sri Yanamandra",
+      "Yineng Zhang",
+      "Ce Zhang",
+      "Tri Dao",
+      "Percy Liang",
+      "Ben Athiwaratkun",
+      "Shuaiwen Leon Song",
+      "Chenfeng Xu",
+      "Xiaoxia Wu"
+    ],
+    "published": "2026-02-06 18:28:54+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06930v1",
+    "title": "Continuous-time reinforcement learning: ellipticity enables model-free value function approximation",
+    "summary": "We study off-policy reinforcement learning for controlling continuous-time Markov diffusion processes with discrete-time observations and actions. We consider model-free algorithms with function approximation that learn value and advantage functions directly from data, without unrealistic structural assumptions on the dynamics.\n  Leveraging the ellipticity of the diffusions, we establish a new class of Hilbert-space positive definiteness and boundedness properties for the Bellman operators. Based on these properties, we propose the Sobolev-prox fitted $q$-learning algorithm, which learns value and advantage functions by iteratively solving least-squares regression problems. We derive oracle inequalities for the estimation error, governed by (i) the best approximation error of the function classes, (ii) their localized complexity, (iii) exponentially decaying optimization error, and (iv) numerical discretization error. These results identify ellipticity as a key structural property that renders reinforcement learning with function approximation for Markov diffusions no harder than supervised learning.",
+    "authors": [
+      "Wenlong Mou"
+    ],
+    "published": "2026-02-06 18:25:33+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06927v1",
+    "title": "Topological Semantics for Common Inductive Knowledge",
+    "summary": "Lewis' account of common knowledge in Convention describes the generation of higher-order expectations between agents as hinging upon agents' inductive standards and a shared witness. This paper attempts to draw from insights in learning theory to provide a formal account of common inductive knowledge and how it can be generated by a witness. Our language has a rather rich syntax in order to capture equally rich notions central to Lewis' account of common knowledge; for instance, we speak of an agent 'having some reason to believe' a proposition and one proposition 'indicating' to an agent that another proposition holds. A similar line of work was pursued by Cubitt & Sugden 2003; however, their account was left wanting for a corresponding semantics. Our syntax affords a novel topological semantics which, following Kelly 1996's approach in The Logic of Reliable Inquiry, takes as primitives agents' information bases. In particular, we endow each agent with a 'switching tolerance' meant to represent their personal inductive standards for learning. Curiously, when all agents are truly inductive learners (not choosing to believe only those propositions which are deductively verified), we show that the set of worlds where a proposition $P$ is common inductive knowledge is invariant of agents' switching tolerances. Contrarily, the question of whether a specific witness $W$ generates common inductive knowledge of $P$ is sensitive to changing agents' switching tolerances. After establishing soundness of our proof system with respect to this semantics, we conclude by applying our logic to solve an 'inductive' variant of the coordinated attack problem.",
+    "authors": [
+      "Siddharth Namachivayam"
+    ],
+    "published": "2026-02-06 18:23:45+00:00"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.06926v1",
+    "title": "Towards a Fully Automated Pipeline for Short-Term Forecasting of In Situ Coronal Mass Ejection Magnetic Field Structure",
+    "summary": "We present an automated pipeline for operational short-term forecasting of coronal mass ejection (CME) magnetic field structure at L1, coupling arrival time prediction, in situ detection, and iterative flux rope reconstruction, following near-real-time remote-sensing CME identification. The system is triggered by new entries in the CCMC DONKI database and first applies the drag-based ELEvo model to determine whether an Earth impact is expected and estimate arrival time. This estimate defines a temporal window constraining the search for CME signatures in real-time L1 in situ solar wind data, where the magnetic obstacle (MO) is automatically detected using the deep learning model ARCANE. Upon MO onset, iterative reconstructions with the semi-empirical flux rope model 3DCORE are performed, using a Monte Carlo fitting scheme, producing continuously updated forecasts of the remaining magnetic field profile.\n  We evaluate the pipeline using 3870 archived DONKI entries and archived NOAA real-time in situ data from 2013-2025, assessing forecast performance at different stages of MO observation. For 61 events with an associated ground-truth counterpart in the ICMECAT catalog, forecasts based on initial MO data already achieve performance comparable to full-event reconstructions. Typical errors are ~5 hours in timing of magnetic field extrema and ~10 nT in field strength metrics, with limited systematic improvement as more of the event is observed. Results show substantial event variability and systematic underestimation of extrema, indicating deviations from ideal flux rope assumptions. These findings demonstrate the potential of fully autonomous real-time forecasting while highlighting limitations imposed by event complexity and model representational capacity.",
+    "authors": [
+      "Hannah T. Rüdisser",
+      "Emma E. Davies",
+      "Ute V. Amerstorfer",
+      "Christian Möstl",
+      "Eva Weiler",
+      "Andreas J. Weiss",
+      "Justin Le Louëdec",
+      "Martin A. Reiss",
+      "Gautier Nguyen"
+    ],
+    "published": "2026-02-06 18:21:16+00:00"
+  }
+]
