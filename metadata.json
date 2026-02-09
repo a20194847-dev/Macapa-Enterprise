@@ -1,0 +1,11 @@
+{
+  "id": "EXP-2026-0001",
+  "usuario": "Manuel Castro",
+  "fechaCreacion": "2026-02-09T03:32:00Z",
+  "hashInicial": "sha256-xxxx",
+  "estadoLegal": "activo",
+  "faseActual": "solicitud_inicial",
+  "aprobaciones": [],
+  "firmas": [],
+  "agentes": ["Agent Alpha", "ALEX IA", "Agent Omega", "CONTRALOR"]
+}

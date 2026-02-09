@@ -1,0 +1,258 @@
+Perfecto, Manuel.  
+Vamos a avanzar **secuencialmente**, con pasos concretos, sin saltos, sin abstracciones, construyendo el sistema **pieza por pieza**, como si estuviéramos ensamblando un motor legal‑operativo real.
+
+Ya completamos:
+
+- **A — Proceso Legal‑Operativo Universal**  
+- **B — Motor de Aprobaciones (conceptual)**  
+
+Ahora toca **convertirlo en pasos concretos**, configurables, implementables y accionables dentro de MACAPA ENTERPRISE.
+
+Vamos a construir **C — EL MOTOR DE EXPEDIENTE DIGITAL**, pero lo haremos **en pasos**, no en teoría.
+
+---
+
+# ⭐ PASO 1 — Crear la estructura del EXPEDIENTE DIGITAL  
+El expediente digital es el “contenedor legal” donde se guarda todo:
+
+- Solicitud inicial  
+- Levantamiento de información  
+- Entregables  
+- Aprobaciones  
+- Rechazos  
+- Firmas  
+- Hashes  
+- Timestamps  
+- Evidencia  
+- Contratos  
+- Informes  
+- Logs  
+
+### ✔ Acción concreta  
+Creamos una estructura estándar para cada expediente:
+
+```
+/expedientes/<id_del_proyecto>/
+    /00_solicitud_inicial/
+    /01_levantamiento/
+    /02_validez_objetivo/
+    /03_plan_trabajo/
+    /04_contrato/
+    /05_ejecucion/
+    /06_cierre/
+    /07_seguimiento/
+    metadata.json
+    historial.json
+```
+
+### ✔ ¿Por qué así?  
+Porque esta estructura:
+
+- Es legalmente sólida  
+- Es auditable  
+- Es trazable  
+- Es compatible con firmas digitales  
+- Es compatible con auditoría interna  
+- Es compatible con consultoría  
+- Es compatible con legal  
+
+---
+
+# ⭐ PASO 2 — Crear el archivo **metadata.json**  
+Este archivo contiene:
+
+- ID del expediente  
+- Usuario  
+- Fecha de creación  
+- Hash inicial  
+- Estado legal  
+- Estado del workflow  
+- Fase actual  
+- Historial de aprobaciones  
+- Historial de firmas  
+- Agentes involucrados  
+
+### ✔ Acción concreta  
+Estructura:
+
+```json
+{
+  "id": "EXP-2026-0001",
+  "usuario": "Manuel Castro",
+  "fechaCreacion": "2026-02-09T03:32:00Z",
+  "hashInicial": "sha256-xxxx",
+  "estadoLegal": "activo",
+  "faseActual": "solicitud_inicial",
+  "aprobaciones": [],
+  "firmas": [],
+  "agentes": ["Agent Alpha", "ALEX IA", "Agent Omega", "CONTRALOR"]
+}
+```
+
+---
+
+# ⭐ PASO 3 — Crear el archivo **historial.json**  
+Aquí se registra **cada acción**, con:
+
+- Timestamp  
+- Actor (usuario o agente)  
+- Acción  
+- Documento asociado  
+- Hash  
+- Resultado  
+
+### ✔ Acción concreta  
+Estructura:
+
+```json
+[
+  {
+    "fecha": "2026-02-09T03:32:00Z",
+    "actor": "Usuario",
+    "accion": "Envió solicitud inicial",
+    "documento": "solicitud_inicial.txt",
+    "hash": "sha256-xxxx"
+  }
+]
+```
+
+---
+
+# ⭐ PASO 4 — Definir el mecanismo de HASH  
+Cada documento debe tener un hash para:
+
+- Garantizar integridad  
+- Evitar alteraciones  
+- Permitir auditoría  
+- Dar validez legal  
+
+### ✔ Acción concreta  
+MACAPA usará:
+
+- **SHA‑256** para documentos  
+- **SHA‑512** para contratos  
+- **UUID v7** para identificadores  
+
+---
+
+# ⭐ PASO 5 — Definir el mecanismo de TIMESTAMP  
+Cada acción debe tener:
+
+- Fecha  
+- Hora  
+- Zona horaria  
+- Sincronización con servidor  
+
+### ✔ Acción concreta  
+Formato ISO 8601:
+
+```
+2026-02-09T03:32:00-05:00
+```
+
+---
+
+# ⭐ PASO 6 — Definir el mecanismo de REGISTRO LEGAL  
+Cada vez que:
+
+- Un agente genera un entregable  
+- El usuario aprueba  
+- El usuario rechaza  
+- Se firma un contrato  
+- Se desbloquea una fase  
+
+Se registra en:
+
+- `metadata.json`  
+- `historial.json`  
+- Carpeta correspondiente  
+
+---
+
+# ⭐ PASO 7 — Definir el mecanismo de BLOQUEO LEGAL  
+Cada fase tiene un archivo:
+
+```
+fase_estado.json
+```
+
+Con:
+
+```json
+{
+  "estado": "esperando_aprobacion",
+  "requiereFirma": false,
+  "requiereAprobacion": true
+}
+```
+
+---
+
+# ⭐ PASO 8 — Definir el mecanismo de DESBLOQUEO  
+Cuando el usuario aprueba:
+
+- Se actualiza `fase_estado.json`  
+- Se actualiza `metadata.json`  
+- Se registra en `historial.json`  
+- Se notifica a Agent Alpha  
+- Se habilita la siguiente fase  
+
+---
+
+# ⭐ PASO 9 — Definir el mecanismo de FIRMA DIGITAL  
+MACAPA debe permitir:
+
+- Firma digital simple (aceptación explícita)  
+- Firma digital avanzada (hash + token)  
+- Firma digital externa (Adobe Sign, DocuSign, etc.)  
+
+### ✔ Acción concreta  
+Cada firma se registra como:
+
+```json
+{
+  "firmante": "Manuel Castro",
+  "fecha": "2026-02-09T03:45:00Z",
+  "documento": "contrato.pdf",
+  "hashDocumento": "sha256-xxxx",
+  "metodo": "firma_digital_simple"
+}
+```
+
+---
+
+# ⭐ PASO 10 — Integrar el expediente con el MOTOR DE APROBACIONES  
+Ahora el expediente:
+
+- Bloquea fases  
+- Registra aprobaciones  
+- Registra rechazos  
+- Registra firmas  
+- Registra entregables  
+- Registra evidencia  
+- Registra agentes  
+- Registra timestamps  
+- Registra hashes  
+
+Esto completa el **núcleo legal**.
+
+---
+
+# ⭐ Manuel, ya completamos el MÓDULO C.  
+Ahora MACAPA tiene:
+
+### ✔ Proceso legal‑operativo  
+### ✔ Motor de aprobaciones  
+### ✔ Motor de expediente digital  
+
+Esto ya es **nivel firma global**.
+
+---
+
+# ⭐ ¿QUÉ SIGUE AHORA?  
+El siguiente paso secuencial es:
+
+## 🔥 D — MOTOR DE CONTRATOS  
+(Generación, validación, firma, registro, anexos, alcance, cláusulas)
+
+¿Avanzamos con el motor de contratos?

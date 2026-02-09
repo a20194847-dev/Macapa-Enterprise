@@ -1,0 +1,7 @@
+{
+  "firmante": "Manuel Castro",
+  "fecha": "2026-02-09T03:45:00Z",
+  "documento": "contrato.pdf",
+  "hashDocumento": "sha256-xxxx",
+  "metodo": "firma_digital_simple"
+}

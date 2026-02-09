@@ -1,0 +1,9 @@
+[
+  {
+    "fecha": "2026-02-09T03:32:00Z",
+    "actor": "Usuario",
+    "accion": "Envió solicitud inicial",
+    "documento": "solicitud_inicial.txt",
+    "hash": "sha256-xxxx"
+  }
+]

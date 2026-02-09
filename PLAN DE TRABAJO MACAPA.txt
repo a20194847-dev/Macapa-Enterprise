@@ -1,0 +1,188 @@
+PLAN DE TRABAJO MACAPA
+
+Manuel, estás en el punto exacto donde un arquitecto institucional como tú debe estar: **listo para ver el sistema vivo**, pero sin perder la disciplina del orden y la secuencia.
+
+Vamos a hacer dos cosas ahora:
+
+1. **Responder tu pregunta:** cuánto falta realmente.  
+2. **Darte un plan de trabajo enterprise**, claro, ordenado, accionable, para continuar después del deploy sin perder nada de lo construido.
+
+Y lo haré con la precisión que exige un sistema como MACAPA ENTERPRISE.
+
+---
+
+# ⭐ 1. ¿CUÁNTO FALTA REALMENTE?
+
+Tu backend ya tiene:
+
+- Expediente digital  
+- Motor de aprobaciones  
+- Motor de contratos  
+- Motor de workflows por producto  
+- Motor de agentes  
+- Motor de entregables  
+- Rutas HTTP para todo lo anterior  
+
+Esto significa que **el núcleo legal‑operativo ya está construido**.
+
+Lo que falta para ver el sistema funcionando en Render es:
+
+### ✔ A) Integrar todas las rutas en `index.ts`  
+### ✔ B) Verificar que no haya errores de importación  
+### ✔ C) Subir cambios a GitHub  
+### ✔ D) Render detecta el push y hace deploy  
+### ✔ E) Probar endpoints desde Postman o el frontend  
+
+En otras palabras:
+
+👉 **Estás a un paso del primer deploy funcional.**
+
+Lo que falta es **mínimo** comparado con lo que ya construimos.
+
+---
+
+# ⭐ 2. PLAN DE TRABAJO ENTERPRISE PARA CONTINUAR DESPUÉS DEL DEPLOY
+
+Este plan está diseñado como si fuera un roadmap de una firma global.  
+Es claro, secuencial, sin ambigüedades, y te permitirá avanzar sin perder el orden.
+
+---
+
+# ⭐ FASE 1 — DEPLOY INICIAL (HOY)
+
+### 1.1 Consolidar rutas en `backend/index.ts`
+- `/api/workflow`
+- `/api/contratos`
+- `/api/agentes`
+- `/api/fases`
+- `/api/entregables`
+
+### 1.2 Verificar estructura de carpetas en Render
+- `expedientes/` debe existir o crearse automáticamente
+
+### 1.3 Push a GitHub  
+### 1.4 Render hace deploy  
+### 1.5 Probar endpoints básicos
+
+**Objetivo:**  
+Ver el sistema vivo, con un proyecto inicializable y fases bloqueadas.
+
+---
+
+# ⭐ FASE 2 — INTERFAZ DE USUARIO (POST‑DEPLOY)
+
+Una vez que el backend esté arriba, avanzamos con:
+
+### 2.1 Crear UI para:
+- Crear proyecto  
+- Ver fases  
+- Ver entregables  
+- Aprobar/rechazar fases  
+- Firmar contrato  
+- Ver expediente  
+
+### 2.2 Integrar frontend con backend  
+### 2.3 Crear dashboard inicial de MACAPA ENTERPRISE
+
+**Objetivo:**  
+Que puedas usar el sistema sin Postman.
+
+---
+
+# ⭐ FASE 3 — MOTOR DE INTERACCIÓN IA–USUARIO
+
+Aquí conectamos:
+
+- Solicitud inicial  
+- Agente Alpha  
+- Entregable inicial  
+- Aprobación  
+- Plan de trabajo  
+- Contrato  
+- Ejecución  
+- Cierre  
+
+**Objetivo:**  
+Que MACAPA funcione como un “equipo IA” real.
+
+---
+
+# ⭐ FASE 4 — PRODUCTOS CORPORATIVOS COMPLETOS
+
+Agregar workflows completos para:
+
+- Auditoría financiera  
+- Auditoría de fraude  
+- Auditoría de RRHH  
+- Auditoría de TI  
+- Due diligence  
+- Compliance  
+- Diagnóstico operativo  
+- Consultoría estratégica  
+
+**Objetivo:**  
+Que MACAPA pueda operar como una firma global.
+
+---
+
+# ⭐ FASE 5 — MOTOR DE DASHBOARDS (ALEX FLASH)
+
+- Dashboards automáticos  
+- Informes ejecutivos  
+- Visualizaciones  
+- Presentaciones  
+
+**Objetivo:**  
+Que MACAPA produzca entregables de nivel gerencial.
+
+---
+
+# ⭐ FASE 6 — MOTOR DE SUPERVISIÓN (CONTRALOR)
+
+- Validación metodológica  
+- Rating  
+- Auditoría del proceso  
+- Dictamen de calidad  
+
+**Objetivo:**  
+Garantizar calidad y trazabilidad total.
+
+---
+
+# ⭐ FASE 7 — FIRMA DIGITAL AVANZADA
+
+- Integración con DocuSign / Adobe Sign  
+- Hash SHA‑512  
+- Certificados  
+
+**Objetivo:**  
+Validez legal internacional.
+
+---
+
+# ⭐ FASE 8 — AUTOMATIZACIÓN CONTROLADA
+
+- Agentes autónomos  
+- Tareas programadas  
+- Seguimiento automático  
+
+**Objetivo:**  
+MACAPA como sistema vivo.
+
+---
+
+# ⭐ 3. ¿QUÉ HACEMOS AHORA MISMO?
+
+Si estás listo para deploy:
+
+👉 **Te guío paso a paso para consolidar el backend y subirlo a Render.**
+
+Si prefieres revisar algo antes:
+
+👉 Me dices qué módulo quieres validar.
+
+Si quieres avanzar directo:
+
+👉 Te preparo el checklist final de deploy.
+
+Tú decides el siguiente movimiento.

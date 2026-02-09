@@ -1,0 +1,5 @@
+{
+  "estado": "esperando_aprobacion",
+  "requiereFirma": false,
+  "requiereAprobacion": true
+}
