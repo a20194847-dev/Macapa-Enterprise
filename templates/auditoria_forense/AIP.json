@@ -1,0 +1,77 @@
+{
+  "tipo_documento": "AIP",
+  "nombre": "Acta Inicial de Proyecto de Auditoría Forense",
+  "version": "1.0",
+  "secciones": {
+    "datos_generales": {
+      "nombre_proyecto": "",
+      "codigo_interno": "",
+      "cliente": "",
+      "area_involucrada": "",
+      "fecha_inicio": "",
+      "equipo_responsable": {
+        "coordinador": "",
+        "equipo_forense": [],
+        "soporte_legal": [],
+        "soporte_financiero": [],
+        "soporte_operativo": []
+      }
+    },
+    "antecedentes_contexto": {
+      "descripcion_contexto": "",
+      "eventos_disparadores": "",
+      "alcance_preliminar": "",
+      "informacion_disponible": "",
+      "limitaciones_iniciales": ""
+    },
+    "objetivos": {
+      "objetivo_general": "",
+      "objetivos_especificos": [],
+      "preguntas_clave": []
+    },
+    "alcance": {
+      "procesos_incluidos": [],
+      "periodos_considerados": "",
+      "fuentes_informacion": [],
+      "exclusiones": [],
+      "supuestos_iniciales": []
+    },
+    "metodologia": {
+      "enfoque_forense": "",
+      "tecnicas_analisis": [],
+      "criterios_priorizacion": "",
+      "uso_modelos_riesgo_macapa": ""
+    },
+    "gobernanza": {
+      "comite_seguimiento": [],
+      "canales_comunicacion": [],
+      "frecuencia_reportes": "",
+      "mecanismos_escalamiento": "",
+      "confidencialidad": ""
+    },
+    "entregables": {
+      "informe_avance": true,
+      "informe_intermedio": true,
+      "informe_final": true,
+      "anexos_tecnicos": true,
+      "recomendaciones_plan_accion": true
+    },
+    "riesgos_iniciales": {
+      "forenses": [],
+      "legales": [],
+      "financieros": [],
+      "operativos": [],
+      "compliance": []
+    },
+    "cronograma": {
+      "hitos": [],
+      "fechas_estimadas": "",
+      "dependencias_criticas": []
+    },
+    "firmas_aprobaciones": {
+      "responsable_proyecto": "",
+      "representante_cliente": "",
+      "otros_aprobadores": []
+    }
+  }
+}

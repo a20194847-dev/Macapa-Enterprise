@@ -1,0 +1,54 @@
+{
+  "tipo_documento": "RDF",
+  "nombre": "Reporte de Decisiones Finales",
+  "version": "1.0",
+  "secciones": {
+    "datos_generales": {
+      "proyecto": "",
+      "codigo_interno": "",
+      "fecha_emision": "",
+      "responsable_documento": "",
+      "comite_aprobador": ""
+    },
+    "resumen_ejecutivo": {
+      "decisiones_adoptadas": [],
+      "riesgos_criticos_atendidos": [],
+      "impacto_institucional": "",
+      "proximos_pasos": []
+    },
+    "decisiones_finales": {
+      "forenses": [],
+      "legales": [],
+      "financieras": [],
+      "operativas": [],
+      "ejecutivas": []
+    },
+    "matriz_decisiones": [],
+    "plan_accion_final": {
+      "acciones_inmediatas": [],
+      "acciones_corto_plazo": [],
+      "acciones_mediano_plazo": [],
+      "acciones_preventivas": [],
+      "kpis_seguimiento": []
+    },
+    "riesgos_residuales": {
+      "riesgos_persistentes": [],
+      "nivel_residual": "",
+      "acciones_monitoreo": [],
+      "recomendaciones_adicionales": []
+    },
+    "cierre_proyecto": {
+      "estado_final": "",
+      "lecciones_aprendidas": [],
+      "recomendaciones_institucionales": [],
+      "condiciones_cierre": []
+    },
+    "firmas": {
+      "responsable_forense": "",
+      "responsable_legal": "",
+      "responsable_financiero": "",
+      "responsable_operativo": "",
+      "aprobacion_ejecutiva": ""
+    }
+  }
+}

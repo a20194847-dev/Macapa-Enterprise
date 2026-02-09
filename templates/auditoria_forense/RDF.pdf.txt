@@ -1,0 +1,70 @@
+TÍTULO: RDF — REPORTE DE DECISIONES FINALES (AUDITORÍA FORENSE)
+
+1. DATOS GENERALES
+   1.1 Proyecto:
+   1.2 Código interno:
+   1.3 Fecha de emisión:
+   1.4 Responsable del documento:
+   1.5 Comité / Dirección que aprueba:
+
+2. RESUMEN EJECUTIVO
+   2.1 Decisiones adoptadas:
+   2.2 Riesgos críticos atendidos:
+   2.3 Impacto institucional:
+   2.4 Próximos pasos:
+
+3. DECISIONES FINALES
+   3.1 Decisiones forenses:
+        - Validación de evidencia
+        - Acciones sobre hallazgos
+   3.2 Decisiones legales:
+        - Acciones contractuales
+        - Acciones regulatorias
+        - Acciones de defensa
+   3.3 Decisiones financieras:
+        - Provisiones
+        - Ajustes contables
+        - Impacto económico final
+   3.4 Decisiones operativas:
+        - Cambios de proceso
+        - Controles nuevos
+        - Medidas de mitigación
+   3.5 Decisiones ejecutivas:
+        - Escalamientos
+        - Comunicaciones institucionales
+        - Acciones estratégicas
+
+4. MATRIZ DE DECISIONES
+   - Decisión
+   - Dominio
+   - Responsable
+   - Plazo
+   - Estado
+   - Riesgo mitigado
+   - Evidencia asociada
+
+5. PLAN DE ACCIÓN FINAL
+   5.1 Acciones inmediatas (0–72 horas):
+   5.2 Acciones de corto plazo (1–2 semanas):
+   5.3 Acciones de mediano plazo (1–3 meses):
+   5.4 Acciones preventivas:
+   5.5 KPIs de seguimiento:
+
+6. RIESGOS RESIDUALES
+   6.1 Riesgos que permanecen:
+   6.2 Nivel residual:
+   6.3 Acciones de monitoreo:
+   6.4 Recomendaciones adicionales:
+
+7. CIERRE DEL PROYECTO
+   7.1 Estado final:
+   7.2 Lecciones aprendidas:
+   7.3 Recomendaciones institucionales:
+   7.4 Condiciones para cierre formal:
+
+8. FIRMAS Y APROBACIONES
+   8.1 Responsable forense:
+   8.2 Responsable legal:
+   8.3 Responsable financiero:
+   8.4 Responsable operativo:
+   8.5 Aprobación ejecutiva:

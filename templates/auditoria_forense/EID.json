@@ -1,0 +1,65 @@
+{
+  "tipo_documento": "EID",
+  "nombre": "Evaluación Inicial de Datos",
+  "version": "1.0",
+  "secciones": {
+    "datos_generales": {
+      "proyecto": "",
+      "codigo_interno": "",
+      "fecha_elaboracion": "",
+      "responsable_documento": ""
+    },
+    "inventario_datos": {
+      "documentos": [],
+      "archivos_digitales": [],
+      "logs_registros": [],
+      "bases_datos": []
+    },
+    "evaluacion_integridad": {
+      "validacion_metadatos": [],
+      "consistencia_versiones": [],
+      "alteraciones_detectadas": [],
+      "trazabilidad": [],
+      "riesgos_asociados": []
+    },
+    "evaluacion_coherencia": {
+      "coherencia_temporal": [],
+      "coherencia_numerica": [],
+      "coherencia_narrativa": [],
+      "coherencia_fuentes": [],
+      "riesgos_asociados": []
+    },
+    "evaluacion_completitud": {
+      "datos_completos": [],
+      "datos_parciales": [],
+      "datos_faltantes": [],
+      "datos_duplicados": [],
+      "riesgos_asociados": []
+    },
+    "evaluacion_calidad": {
+      "precision": [],
+      "actualizacion": [],
+      "relevancia": [],
+      "consistencia": [],
+      "riesgos_asociados": []
+    },
+    "senales_debiles": {
+      "tecnicas": [],
+      "documentales": [],
+      "operativas": [],
+      "narrativas": []
+    },
+    "matriz_riesgo_datos": [],
+    "conclusiones": {
+      "nivel_confiabilidad": "",
+      "riesgos_criticos": [],
+      "implicancias_analisis": "",
+      "recomendaciones_inmediatas": []
+    },
+    "firmas": {
+      "responsable_forense": "",
+      "responsable_area": "",
+      "otros_aprobadores": []
+    }
+  }
+}

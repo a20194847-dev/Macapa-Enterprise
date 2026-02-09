@@ -1,0 +1,83 @@
+TÍTULO: EID — EVALUACIÓN INICIAL DE DATOS (AUDITORÍA FORENSE)
+
+1. DATOS GENERALES
+   1.1 Proyecto:
+   1.2 Código interno:
+   1.3 Fecha de elaboración:
+   1.4 Responsable del documento:
+
+2. INVENTARIO DE DATOS RECIBIDOS
+   2.1 Documentos:
+        - Tipo:
+        - Cantidad:
+        - Formato:
+        - Estado:
+   2.2 Archivos digitales:
+        - Tipo:
+        - Tamaño:
+        - Integridad:
+        - Observaciones:
+   2.3 Logs y registros:
+        - Sistema:
+        - Periodo:
+        - Completitud:
+        - Observaciones:
+   2.4 Bases de datos:
+        - Tablas:
+        - Campos críticos:
+        - Calidad:
+        - Observaciones:
+
+3. EVALUACIÓN DE INTEGRIDAD
+   3.1 Validación de metadatos:
+   3.2 Consistencia entre versiones:
+   3.3 Detección de alteraciones:
+   3.4 Trazabilidad documental:
+   3.5 Riesgos asociados:
+
+4. EVALUACIÓN DE COHERENCIA
+   4.1 Coherencia temporal:
+   4.2 Coherencia numérica:
+   4.3 Coherencia narrativa:
+   4.4 Coherencia entre fuentes:
+   4.5 Riesgos asociados:
+
+5. EVALUACIÓN DE COMPLETITUD
+   5.1 Datos completos:
+   5.2 Datos parciales:
+   5.3 Datos faltantes:
+   5.4 Datos duplicados:
+   5.5 Riesgos asociados:
+
+6. EVALUACIÓN DE CALIDAD DE DATOS
+   6.1 Precisión:
+   6.2 Actualización:
+   6.3 Relevancia:
+   6.4 Consistencia:
+   6.5 Riesgos asociados:
+
+7. SEÑALES DÉBILES IDENTIFICADAS
+   7.1 Señales técnicas:
+   7.2 Señales documentales:
+   7.3 Señales operativas:
+   7.4 Señales narrativas:
+
+8. MATRIZ DE RIESGO DE DATOS
+   - Tipo de dato
+   - Problema detectado
+   - Dominio (Forense / Legal / Financiero / Operativo)
+   - Nivel (Alto / Medio / Bajo)
+   - Impacto
+   - Probabilidad
+   - Acción sugerida
+
+9. CONCLUSIONES
+   9.1 Nivel general de confiabilidad:
+   9.2 Riesgos críticos:
+   9.3 Implicancias para el análisis forense:
+   9.4 Recomendaciones inmediatas:
+
+10. FIRMAS
+    10.1 Responsable forense:
+    10.2 Responsable del área revisada:
+    10.3 Otros aprobadores:

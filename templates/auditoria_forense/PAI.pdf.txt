@@ -1,0 +1,94 @@
+TÍTULO: PAI — PLAN DE AUDITORÍA INICIAL (AUDITORÍA FORENSE)
+
+1. DATOS GENERALES DEL PROYECTO
+   1.1 Nombre del proyecto:
+   1.2 Código interno:
+   1.3 Cliente / Entidad:
+   1.4 Área / Unidad revisada:
+   1.5 Fecha de elaboración:
+   1.6 Equipo forense asignado:
+        - Coordinador:
+        - Analistas:
+        - Soporte legal:
+        - Soporte financiero:
+        - Soporte operativo:
+
+2. OBJETIVOS DE LA AUDITORÍA
+   2.1 Objetivo general:
+   2.2 Objetivos específicos:
+        - OE1:
+        - OE2:
+        - OE3:
+   2.3 Preguntas clave a resolver:
+        - P1:
+        - P2:
+        - P3:
+
+3. ALCANCE DEFINITIVO
+   3.1 Procesos incluidos:
+   3.2 Periodos analizados:
+   3.3 Sistemas y fuentes de información:
+   3.4 Exclusiones:
+   3.5 Supuestos validados:
+
+4. METODOLOGÍA FORENSE
+   4.1 Enfoque general:
+   4.2 Técnicas de análisis:
+        - Revisión documental
+        - Análisis de logs
+        - Entrevistas
+        - Cruce de información
+        - Análisis de patrones
+        - Validación de metadatos
+   4.3 Uso del Predictive Engine MACAPA:
+        - Modelos de riesgo
+        - Árboles de decisión
+        - Señales débiles
+        - Patrones históricos
+   4.4 Criterios de priorización:
+        - Riesgo
+        - Impacto
+        - Urgencia
+
+5. PLAN DE TRABAJO
+   5.1 Actividades principales:
+        - A1:
+        - A2:
+        - A3:
+   5.2 Secuencia de ejecución:
+   5.3 Dependencias críticas:
+   5.4 Entregables por fase:
+
+6. CRONOGRAMA DETALLADO
+   6.1 Hitos:
+        - Hito 1:
+        - Hito 2:
+        - Hito 3:
+   6.2 Fechas estimadas:
+   6.3 Duración por actividad:
+
+7. MATRIZ DE RIESGOS INICIALES
+   - Riesgo
+   - Dominio (Forense / Legal / Financiero / Operativo / Compliance)
+   - Nivel (Alto / Medio / Bajo)
+   - Impacto
+   - Probabilidad
+   - Acciones iniciales
+
+8. RECURSOS NECESARIOS
+   8.1 Accesos:
+   8.2 Documentos:
+   8.3 Personal:
+   8.4 Herramientas:
+   8.5 Soportes adicionales:
+
+9. GOBERNANZA Y COMUNICACIÓN
+   9.1 Comité de seguimiento:
+   9.2 Frecuencia de reuniones:
+   9.3 Canales de comunicación:
+   9.4 Mecanismos de escalamiento:
+
+10. FIRMAS Y APROBACIONES
+    10.1 Responsable forense:
+    10.2 Responsable del área revisada:
+    10.3 Otros aprobadores:

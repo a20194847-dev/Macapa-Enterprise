@@ -1,0 +1,88 @@
+TÍTULO: AIP — ACTA INICIAL DE PROYECTO DE AUDITORÍA FORENSE
+
+1. DATOS GENERALES DEL PROYECTO
+   1.1 Nombre del proyecto:
+   1.2 Código interno:
+   1.3 Cliente / Entidad:
+   1.4 Área / Unidad involucrada:
+   1.5 Fecha de inicio:
+   1.6 Equipo responsable:
+        - Coordinador:
+        - Equipo forense:
+        - Soporte legal:
+        - Soporte financiero:
+        - Soporte operativo:
+
+2. ANTECEDENTES Y CONTEXTO
+   2.1 Descripción breve del contexto:
+   2.2 Evento(s) que motivan la auditoría:
+   2.3 Alcance preliminar de la revisión:
+   2.4 Información disponible al inicio:
+   2.5 Limitaciones iniciales conocidas:
+
+3. OBJETIVOS DEL PROYECTO
+   3.1 Objetivo general:
+   3.2 Objetivos específicos:
+        - OE1:
+        - OE2:
+        - OE3:
+   3.3 Preguntas clave a responder:
+        - P1:
+        - P2:
+        - P3:
+
+4. ALCANCE
+   4.1 Procesos incluidos:
+   4.2 Periodos de tiempo considerados:
+   4.3 Sistemas / fuentes de información:
+   4.4 Exclusiones:
+   4.5 Supuestos iniciales:
+
+5. METODOLOGÍA
+   5.1 Enfoque forense:
+   5.2 Técnicas de análisis:
+        - Revisión documental
+        - Análisis de logs
+        - Entrevistas
+        - Cruce de información
+        - Otros:
+   5.3 Criterios de priorización:
+   5.4 Uso de modelos de riesgo y patrones MACAPA:
+
+6. GOBERNANZA DEL PROYECTO
+   6.1 Comité / responsables de seguimiento:
+   6.2 Canales de comunicación:
+   6.3 Frecuencia de reportes:
+   6.4 Mecanismos de escalamiento:
+   6.5 Confidencialidad y manejo de información:
+
+7. ENTREGABLES PREVISTOS
+   7.1 Informe de avance:
+   7.2 Informe intermedio:
+   7.3 Informe final:
+   7.4 Anexos técnicos:
+   7.5 Recomendaciones y plan de acción:
+
+8. RIESGOS INICIALES IDENTIFICADOS
+   8.1 Riesgos forenses:
+   8.2 Riesgos legales:
+   8.3 Riesgos financieros:
+   8.4 Riesgos operativos:
+   8.5 Riesgos de cumplimiento:
+
+9. CRONOGRAMA PRELIMINAR
+   9.1 Hitos principales:
+        - Hito 1:
+        - Hito 2:
+        - Hito 3:
+   9.2 Fechas estimadas:
+   9.3 Dependencias críticas:
+
+10. FIRMAS Y APROBACIONES
+    10.1 Responsable del proyecto:
+    10.2 Representante del cliente / entidad:
+    10.3 Otros aprobadores:
+
+NOTAS:
+- Este documento constituye el acuerdo inicial de trabajo para la Auditoría Forense.
+- Puede ser ajustado mediante adendas debidamente documentadas.

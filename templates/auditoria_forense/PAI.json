@@ -1,0 +1,74 @@
+{
+  "tipo_documento": "PAI",
+  "nombre": "Plan de Auditoría Inicial",
+  "version": "1.0",
+  "secciones": {
+    "datos_generales": {
+      "nombre_proyecto": "",
+      "codigo_interno": "",
+      "cliente": "",
+      "area_revisada": "",
+      "fecha_elaboracion": "",
+      "equipo_forense": {
+        "coordinador": "",
+        "analistas": [],
+        "soporte_legal": [],
+        "soporte_financiero": [],
+        "soporte_operativo": []
+      }
+    },
+    "objetivos": {
+      "objetivo_general": "",
+      "objetivos_especificos": [],
+      "preguntas_clave": []
+    },
+    "alcance": {
+      "procesos_incluidos": [],
+      "periodos_analizados": "",
+      "fuentes_informacion": [],
+      "exclusiones": [],
+      "supuestos_validados": []
+    },
+    "metodologia": {
+      "enfoque_general": "",
+      "tecnicas_analisis": [],
+      "uso_predictive_engine": {
+        "modelos_riesgo": true,
+        "arboles_decision": true,
+        "senales_debiles": true,
+        "patrones_historicos": true
+      },
+      "criterios_priorizacion": ""
+    },
+    "plan_trabajo": {
+      "actividades": [],
+      "secuencia": [],
+      "dependencias_criticas": [],
+      "entregables_por_fase": []
+    },
+    "cronograma": {
+      "hitos": [],
+      "fechas_estimadas": "",
+      "duracion_actividades": []
+    },
+    "matriz_riesgos": [],
+    "recursos": {
+      "accesos": [],
+      "documentos": [],
+      "personal": [],
+      "herramientas": [],
+      "soportes_adicionales": []
+    },
+    "gobernanza": {
+      "comite_seguimiento": [],
+      "frecuencia_reuniones": "",
+      "canales_comunicacion": [],
+      "mecanismos_escalamiento": ""
+    },
+    "firmas": {
+      "responsable_forense": "",
+      "responsable_area": "",
+      "otros_aprobadores": []
+    }
+  }
+}
