@@ -1,0 +1,12 @@
+static actualizarEstadoFase(idProyecto: string, fase: string, estado: string) {
+  const expedientePath = path.join(this.basePath, idProyecto);
+  const fasePath = path.join(expedientePath, `${fase}_estado.json`);
+
+  const data = {
+    fase,
+    estado,
+    fecha: new Date().toISOString()
+  };
+
+  fs.writeFileSync(fasePath, JSON.stringify(data, null, 2));
+}

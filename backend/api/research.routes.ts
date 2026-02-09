@@ -1,18 +1,17 @@
-// backend/api/research.routes.ts
-
 import { Router } from "express";
-import { ResearchEngine } from "../../core/services/research_engine";
+import { ResearchLogic } from "../logic/research_logic";
 
 const router = Router();
 
-router.get("/research/arxiv", (_req, res) => {
-  const papers = ResearchEngine.getArxivPapers();
+router.get("/arxiv", (_req, res) => {
+  const papers = ResearchLogic.getArxivPapers();
   res.json({ papers });
 });
 
-router.get("/research/repos", (_req, res) => {
-  const repos = ResearchEngine.getRepoInsights();
+router.get("/repos", (_req, res) => {
+  const repos = ResearchLogic.getRepoInsights();
   res.json({ repos });
 });
 
 export default router;
+

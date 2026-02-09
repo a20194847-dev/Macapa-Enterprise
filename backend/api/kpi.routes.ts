@@ -1,14 +1,12 @@
-// backend/api/kpi.routes.ts
-
 import { Router } from "express";
-import { KpiEngine } from "../../core/services/kpi_engine";
+import { KpiLogic } from "../logic/kpi_logic";
 
 const router = Router();
 
-router.post("/kpi/analyze", (req, res) => {
+router.post("/analyze", (req, res) => {
   try {
     const kpis = req.body.kpis;
-    const insights = KpiEngine.analizar(kpis);
+    const insights = KpiLogic.analizar(kpis);
     res.json({ insights });
   } catch (error) {
     console.error("Error analizando KPI:", error);
