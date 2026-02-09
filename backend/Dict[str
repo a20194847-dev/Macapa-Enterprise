@@ -1,0 +1,1 @@
+def fetch_web_page(url: str) -, Any]:

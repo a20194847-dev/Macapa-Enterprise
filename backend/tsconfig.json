@@ -9,4 +9,14 @@
     "strict": false,
     "skipLibCheck": true,
     "baseUrl": "../",
-    "paths}
+    "paths": {
+      "@core/*": ["core/*"],
+      "@backend/*": ["backend/*"]
+    }
+  },
+  "include": [
+    "../backend/**/*.ts",
+    "../core/**/*.ts"
+  ]
+}
+
